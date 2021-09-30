@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feelin' Brew Order Form</title>
+</head>
+
+<body>
+    
+    <h1>Feelin' Brew Coffee Shop</h1>
+    <h2>Lunch Order Form</h2>
+
+    <p class="Lunch Specials">
+        Feelin' Hungry Daily Specials <br>
+        $10.50 plus tax (extra charges listed in form) <br>
+        Includes a medium coffee (hot or iced) and a cafe sandwich <br>
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Closed</td>
+                <td>8am - 4pm</td>
+                <td>8am - 4pm</td>
+                <td>8am - 4pm</td>
+                <td>8am - 4pm</td>
+                <td>8am - 4pm</td>
+                <td>Closed</td>
+            </tr>
+
+            <tr>
+                <td colspan="7">Fall 2021 Hours end December 1, 2021</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form name="lunch-order" method="POST" date-netlify="true">
+
+        <fieldset>
+            <legend>Customer Information</legend>
+
+            <label for="firstName">First Name</label><br>
+            <input type="text" id="firstName" required="required" placeholder="First Name" autofocus><br>
+
+            <label for="lastName">Last Name</label><br />
+            <input type="text" id="lastName" required="required" placeholder="Last Name"><br>
+
+            <label for="email">Email</label><br />
+            <input type="text" id="email" required="required" placeholder="Email"><br>
+
+            <label for="phone">Phone Number</label><br />
+            <input type="text" id="phone" required="required" placeholder="Phone Number"><br>
+       
+            <p>Delivery Method</p>
+            <label for="here">Dine In</label>
+            <input type="radio" name="delivery" id="delivery" value="dine-in">
+
+            <label for="to-go">Take Out</label>
+            <input type="radio" name="delivery" id="delivery" value="take-out">
+       
+            <label for="deliver-to">Deliver</label>
+            <input type="radio" name="delivery" id="delivery" value="deliver-to"
+        </fieldset>
+
+        <fieldset>
+            <legend>Cafe Sandwiches</legend>
+            <input type="radio" id="grilled-cheese" name="sandwich" value="grilled-cheese">
+            <label form="grilled-cheese">Grilled Cheese</label><br>
+            <input type="radio" id="turkey-cheese-and-pesto" name="sandwich" value="turkey-cheese-and-pesto">
+            <label form="turkey-cheese-and-pesto">Turkey, Cheese, and Pesto</label><br>
+            <input type="radio" id="ham-and-swiss" name="sandwich" value="ham-and-swiss">
+            <label form="ham-and-swiss">Ham and Swiss</label><br>
+            <input type="radio" id="buffalo-chicken" name="sandwich" value="buffalo-chicken">
+            <label form="buffalo-chicken">Buffalo Chicken</label><br>
+            <input type="radio" id="tomato-mozzarella" name="sandwich" value="tomato-mozzarella">
+            <label form="tomato-mozzarella">Tomato and Mozzarella</label><br>
+        </fieldset>
+
+        <p>Please choose a flavoring for your coffee</p>
+
+            <select name="flavors" id="flavors" >
+                <optgroup label="regular-flavors" >
+                    <option>No Flavor/Black</option>
+                    <option>French Vanilla</option>
+                    <option>Hazlenut</option>
+                    <option>Mocha</option>
+                    <option>Caramel</option>
+                    <option>Pumpkin Spice (Seasonal)</option>
+                </optgroup>
+
+                <optgroup label="sugar-free-flavors" >
+                    <option>Sugar Free French Vanilla</option>
+                    <option>Sugar Free Mocha</option>
+                    <option>Sugar Free Hazelnut</option>
+                    <option>Sugar Free Caramel</option>
+                </optgroup>
+            </select>
+            <br>
+
+            <p>
+                <button class="form-btn">Submit Order</button>
+                <button class="form-btn">Reset Order</button>
+            </p>
+
+    </form>
+
+</body>
+</html>
