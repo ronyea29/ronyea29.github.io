@@ -3,6 +3,12 @@
 /* this is a comment */
 /* this is a new comment */
 
-    body {
-        background-color: sandybrown;
-    }
+body {
+    background-color: sandybrown;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: seashell;
+}
