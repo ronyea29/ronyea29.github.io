@@ -1,0 +1,13 @@
+
+
+/* testing a new background color */
+
+body {
+    background-color: lightblue;
+}
+
+p {
+    color: saddlebrown;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+}

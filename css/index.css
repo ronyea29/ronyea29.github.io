@@ -12,3 +12,8 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: seashell;
 }
+
+main nav {
+    font-variant: small-caps;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,28 @@
+
+
+/* testing a new background color*/
+
+body {
+    background-color: khaki;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rebeccapurple;
+    font-variant: small-caps;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
