@@ -5,10 +5,17 @@
 
 body {
     background-color: sandybrown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+main-nav {
+    font-variant-caps: all-petite-caps;
+    font-size: 1.25rem;
 }
 
 header {
-    height: 60vh;
+    height: 80vh;
     background-image: url(/img/sunflower-web-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
