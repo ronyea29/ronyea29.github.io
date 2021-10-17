@@ -10,7 +10,7 @@ body {
 
 
 .icon-row-1 {
-    height: 30vh;
+    height: 40vh;
     background-image: url(/img/sunflower-icon-web-design.png);
     background-repeat: repeat-x;
 }
@@ -21,14 +21,14 @@ main-nav {
 }
 
 header {
-    height: 80vh;
+    height: 60vh;
     background-image: url(/img/sunflower-web-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-h1 {
+h1,h2 {
     font-size: 2rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: seashell;
