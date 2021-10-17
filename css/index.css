@@ -20,6 +20,21 @@ main-nav {
     font-size: 1.25rem;
 }
 
+#main-nav a:link {
+    color: darkgreen;
+}
+
+#main-nav a:visited {
+    color:darkviolet;
+}
+
+#main-nav a:hover {
+    color:firebrick;
+    background-color:gold;
+}
+
+
+
 header {
     height: 60vh;
     background-image: url(/img/sunflower-web-design.jpg);
