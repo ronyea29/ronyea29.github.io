@@ -9,6 +9,12 @@ body {
 }
 
 
+.icon-row-1 {
+    height: 30vh;
+    background-image: url(/img/sunflower-icon-web-design.png);
+    background-repeat: repeat-x;
+}
+
 main-nav {
     font-variant-caps: all-petite-caps;
     font-size: 1.25rem;
