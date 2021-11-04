@@ -7,7 +7,14 @@ html {
 }
 
 body {
-    background-color: violet;
+    background-color: rgb(243, 183, 243);
+}
+
+img {
+    box-sizing: border-box;
+    width: 350px;
+    border: 30px solid goldenrod;
+    padding: 20px;
 }
 
 h1, h2 {
