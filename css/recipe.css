@@ -1,7 +1,17 @@
+/* CSS reset */
 
+html {
+    box-sizing: inherit;
+}
 
-/* testing a new background color*/
+*,
+*:before ,
+*:after {
+    box-sizing: inherit;
+}
 
+ /* end of CSS reset */
+ 
 body {
     background-color: khaki;
 }
@@ -37,4 +47,9 @@ ul {
 ol {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
+}
+
+h1,h2 {
+    border: 4px dotted rgb(87, 1, 87);
+    border-width: thin;
 }
