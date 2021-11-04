@@ -1,7 +1,10 @@
+html {
+    box-sizing:border-box;
+}
 
-
-/* this is a comment */
-/* this is a new comment */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body {
     background-color: sandybrown;

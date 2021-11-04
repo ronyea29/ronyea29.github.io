@@ -1,13 +1,24 @@
+html {
+    box-sizing:border-box;
+}
 
-
-/* testing a new background color */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 body {
-    background-color: lightblue;
+    background-color: rgb(54, 131, 156);
+}
+
+img {
+    box-sizing: border-box;
+    width: 350px;
+    border: 30px solid maroon;
+    padding: 20px;
 }
 
 p {
-    color: saddlebrown;
+    color: rgb(255, 160, 92);
     font-family:'Times New Roman', Times, serif;
     font-size: 1.7rem;
 }
