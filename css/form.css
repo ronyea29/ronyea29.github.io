@@ -13,7 +13,7 @@ body {
 img {
     box-sizing: border-box;
     width: 350px;
-    border: 30px solid maroon;
+    border: 100px solid maroon;
     padding: 20px;
 }
 
@@ -21,4 +21,8 @@ p {
     color: rgb(255, 160, 92);
     font-family:'Times New Roman', Times, serif;
     font-size: 1.7rem;
+}
+
+[class="box"] {
+    border: 5px solid gray;
 }
