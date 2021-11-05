@@ -19,26 +19,83 @@ body {
     background-size: cover;
     background-position: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2.1rem;
+    font-size: 1.2rem;
     line-height: 1.2rem;
 }
 
-img {
-    box-sizing: border-box;
-    width: 350px;
-    border: 10px solid goldenrod;
-    padding: 20px;
+#wrapper {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+nav li{
+    list-style-type: none;
+    display:inline;
+    padding-right: 15px;
+}
+
+thead,
+tr {
+    background-color: rgba(255, 215, 106, 0.438);
+}
+
+.hours {
+    background-color: darkslategray;
+    color: #fff;
+}
+
+tr:nth-last-child(1){
+    text-align: center;
+}
+
+form,
+main {
+    width: 60%;
+    background-color: rgba(250, 174, 246, 0.432);
+    padding: 12px;
 }
 
 p {
-    color: rgb(255, 160, 92);
+    color: rgb(63, 0, 146);
     font-family:'Times New Roman', Times, serif;
     font-size: 1.7rem;
     border: 4px solid darkred;
 }
 
+legend {
+    font-size: 1.5rem;
+    font-variant-caps: all-petite-caps;
+    font-weight: bold;
+    padding-bottom: 7px;
+    color: rgb(99, 92, 1);
+}
+
+label[for="firstName"],
+label[for="lastName"],
+label[for="email"],
+label[for="phone"] {
+    background-color: rgba(138, 103, 57, 0.849);
+    width: 150px;
+    text-align:center;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+button {
+    padding: 8px 4px;
+    margin-left: 10%;
+    background-color: rgb(51, 68, 21);
+    color: white;
+    font-variant-caps: all-small-caps;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    box-shadow: 1px 3px lightblue;
+    cursor: pointer;
+}
+
 table {
     border: 4px dotted darkslateblue;
+    padding: 5px 0;
 }
 
 fieldset {
