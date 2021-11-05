@@ -1,0 +1,67 @@
+/* CSS reset */
+
+html {
+    box-sizing: inherit;
+}
+
+*,
+*:before ,
+*:after {
+    box-sizing: inherit;
+}
+
+ /* end of CSS reset */
+
+body {
+    background-color: sandybrown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icon-row-1 {
+    height: 40vh;
+    background-image: url(/img/sunflower-icon-web-design.png);
+    background-repeat: repeat-x;
+}
+
+main-nav {
+    font-variant-caps: all-petite-caps;
+    font-size: 1.25rem;
+}
+
+#main-nav a:link {
+    color: darkgreen;
+}
+
+#main-nav a:visited {
+    color:darkviolet;
+}
+
+#main-nav a:hover {
+    color:firebrick;
+    background-color:gold;
+}
+
+
+
+header {
+    height: 60vh;
+    background-image: url(/img/sunflower-web-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1,h2 {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: seashell;
+}
+
+main nav {
+    font-variant: small-caps;
+    font-size: 1.3rem;
+}
