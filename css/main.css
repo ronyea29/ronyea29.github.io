@@ -11,6 +11,20 @@ html {
 }
 
  /* end of CSS reset */
+ 
+ /*google fonts
+
+ font-family: 'Amatic SC', cursive;
+font-family: 'Crafty Girls', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Leckerli One', cursive;
+font-family: 'Limelight', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Spirax', cursive;
+*/
 
 body {
     background-color: rgb(243, 183, 243);
@@ -25,7 +39,6 @@ img {
 
 h1, h2 {
     font-size: 2rem;
-    font-style: normal;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Limelight', cursive;
     color: midnightblue;
 }
