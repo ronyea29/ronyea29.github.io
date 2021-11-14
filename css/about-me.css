@@ -14,13 +14,13 @@ html {
 
 body {
     background-color: lightblue;
-    font-family: 'Mali', cursive;
+    font-family: 'Comic Neue', cursive;
 }
 
 h1 {
     color:rgb(88, 0, 0);
-    font-family: 'Sacramento', cursive;
-font-size: 5rem;
+    font-family: 'Mali', cursive;
+    font-size: 5rem;
 border: maroon dotted 4px;
 
 }
