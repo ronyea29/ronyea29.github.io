@@ -14,13 +14,13 @@ html {
 
 body {
     background-color: lightblue;
-    font-family: 'Sacramento', cursive;    
+    font-family: 'Mali', cursive;
 }
 
 h1 {
     color:rgb(88, 0, 0);
     font-family: 'Sacramento', cursive;
-font-size: 7rem;
+font-size: 5rem;
 border: maroon dotted 4px;
 
 }
