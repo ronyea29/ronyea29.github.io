@@ -55,15 +55,15 @@ header {
 }
 
 h1,h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Prata', serif;
-    color:rgb(158, 95, 32)
+    color:rgb(92, 55, 18)
 }
 
 p {
     font-size: 1.4rem;
     font-family: 'Crafty Girls', cursive;
-    color:rgb(97, 59, 10)
+    color:rgb(10, 84, 97)
 }
 main-nav {
     font-variant: small-caps;
