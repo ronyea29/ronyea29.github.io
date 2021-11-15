@@ -34,11 +34,11 @@ nav li{
     padding-right: 15px;
 }
 
-table {
-    font-family: 'Amatic SC', cursive;
+thead, tr {
     background-color: rgba(255, 215, 106, 0.438);
     text-align: center;
-    font-size: 1.25rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.7rem;
 }
 
 .hours {
