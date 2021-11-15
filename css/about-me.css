@@ -18,6 +18,13 @@ body {
     font-size: 1rem;
 }
 
+header {
+    height: 4vh;
+    background-image: url(/img/IMG_8138.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 h1 {
     color:rgb(88, 0, 0);
     font-family: 'Nixie One', cursive;
