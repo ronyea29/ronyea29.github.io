@@ -62,5 +62,7 @@ hr {
 }
 
 .my-faves {
-    float: center;
+    float: right;
+    width: 40%;
+    margin-left: -40px;
 }
