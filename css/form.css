@@ -38,7 +38,7 @@ thead,
 tr {
     background-color: rgba(255, 215, 106, 0.438);
     text-align: center;
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Sacramento', cursive;
 }
 
 .hours {
@@ -99,6 +99,7 @@ button {
 table {
     border: 4px dotted darkslateblue;
     padding: 5px 0;
+    position: inherit;
 }
 
 fieldset {
