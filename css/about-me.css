@@ -56,3 +56,11 @@ p {
     border-radius: 20%;
     float: left;
 }
+
+hr {
+    clear: both;
+}
+
+.my-faves {
+    float: right;
+}
