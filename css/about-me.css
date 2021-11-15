@@ -23,6 +23,7 @@ header {
     background-image: url(/img/IMG_8138.JPG);
     background-repeat: no-repeat;
     background-size: 4;
+    background-position: center;
 }
 
 h1 {
@@ -54,5 +55,4 @@ p {
     border: 4px dotted rgb(88, 0, 0);
     padding: 12px;
     border-radius: 30%;
-    text-align: center;
 }
