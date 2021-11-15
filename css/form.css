@@ -104,5 +104,7 @@ fieldset {
 
 h1,h2 {
     font-family: 'Limelight', cursive;
-    color: rgb(63, 0, 146);
+    color: rgb(49, 27, 12);
+    text-align: center;
+    font-size: 8rem;
 }
