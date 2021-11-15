@@ -39,6 +39,15 @@ p {
     font-size: 1.6rem;
 }
 
+.bkg-pic, .footer-links {
+    color:rgb(43, 14, 77);
+    font-size: 1rem;
+}
+
+.bio-author {
+    margin-bottom: 30px;
+}
+
 .bio-pic {
     max-width: 30x;
     margin-right: 40px;
