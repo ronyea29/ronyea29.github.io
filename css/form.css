@@ -91,7 +91,6 @@ label[for="phone"] {
     width: 150px;
     text-align:center;
     display: inline-block;
-    padding-right: 10px;
     margin-bottom: 8px;
 }
 
@@ -108,7 +107,6 @@ button {
 }
 
 table {
-    border: 4px dotted darkslateblue;
     padding: 5px 0;
     position: inherit;
 }
