@@ -59,9 +59,10 @@ tr:nth-last-child(1){
 }
 
 form, main {
-    width: 30%;
+    width: 50%;
     background-color: rgba(255, 239, 224, 0.692);
     padding: 12px;
+    margin-left: 12px;
 }
 
 main {
