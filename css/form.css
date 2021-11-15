@@ -108,3 +108,10 @@ h1,h2 {
     text-align: center;
     font-size: 4rem;
 }
+
+.lunch-specials {
+    font-family: 'Balsamiq Sans', cursive;
+    color:rgb(71, 10, 25);
+    font-size: 1.7rem;
+    width: 30%;
+}
