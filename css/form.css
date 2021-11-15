@@ -58,11 +58,14 @@ tr:nth-last-child(1){
     text-align: center;
 }
 
-form,
-main {
+form, main {
     width: 60%;
-    background-color: rgba(160, 104, 52, 0.432);
+    background-color: rgba(248, 216, 186, 0.795);
     padding: 12px;
+}
+
+main {
+    padding-left: 30px;
 }
 
 p {
