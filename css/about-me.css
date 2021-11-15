@@ -54,4 +54,5 @@ p {
     border: 4px dotted rgb(88, 0, 0);
     padding: 12px;
     border-radius: 30%;
+    float: left;
 }
