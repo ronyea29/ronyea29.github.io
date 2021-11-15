@@ -33,10 +33,16 @@ h1 {
     border: maroon dotted 4px;
 }
 
-p, h2, li, ol {
+p, h2 {
     color:rgb(43, 14, 77);
     font-family: 'Prata', serif;
     font-size: 1.6rem;
+}
+
+ul, ol {
+    color: rgb(43, 14, 77);
+    font-family: 'Prata', serif;
+    font-size: 1.3rem;
 }
 
 .bkg-pic, .footer-links {
