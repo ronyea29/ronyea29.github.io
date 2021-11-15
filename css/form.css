@@ -103,5 +103,6 @@ fieldset {
 }
 
 h1,h2 {
-    border: 4px dashed darkslateblue;
+    font-family: 'Limelight', cursive;
+    color: rgb(63, 0, 146);
 }
