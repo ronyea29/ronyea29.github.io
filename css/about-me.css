@@ -49,10 +49,10 @@ p {
 }
 
 .bio-pic {
-    max-width: 20%;
+    max-width: 25%;
     margin-right: 40px;
     border: 4px dotted rgb(88, 0, 0);
     padding: 12px;
-    border-radius: 30%;
+    border-radius: 20%;
     float: left;
 }
