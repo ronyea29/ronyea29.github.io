@@ -62,5 +62,5 @@ hr {
 }
 
 .my-faves {
-    float: right;
+    float: inline-end;
 }
