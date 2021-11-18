@@ -28,13 +28,14 @@ html {
     color: rgb(60, 0, 128);
     font-variant: normal;
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
  }
 
  h2 {
     font-family: 'Rampart One', cursive;
     color: rgb(60, 0, 128);
     font-variant: normal;
+    text-align: center;
     font-size: 1.5rem;
  }
 
