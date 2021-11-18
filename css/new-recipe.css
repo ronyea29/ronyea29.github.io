@@ -14,6 +14,8 @@ html {
 
  body {
      background-color: rgb(215, 253, 176);
+     font-family: 'Rampart One', cursive;
+    color:rgb(126, 0, 109)
  }
 
  img {
@@ -31,7 +33,7 @@ html {
     font-size: 3.5rem;
  }
 
- h2 {
+ h2, h3 {
     font-family: 'Rampart One', cursive;
     color: rgb(60, 0, 128);
     font-variant: normal;
