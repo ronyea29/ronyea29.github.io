@@ -50,7 +50,7 @@ html {
  }
 
  .bio-intro {
-     float: none;
+     float: right;
     width: 50%;
-    margin-left: -20px;
+    margin-left: 20px;
  }
