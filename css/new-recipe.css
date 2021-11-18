@@ -14,8 +14,9 @@ html {
 
  body {
      background-color: rgb(215, 253, 176);
-     font-family: 'Rampart One', cursive;
-    color:rgb(126, 0, 109)
+     font-family: 'Comfortaa', cursive;
+     color:rgb(126, 0, 109);
+     font-size: 1.3rem;
  }
 
  img {
