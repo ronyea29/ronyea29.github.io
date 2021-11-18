@@ -48,3 +48,9 @@ html {
      border-radius: 40%;
      float: center;
  }
+
+ .bio-intro {
+     float: right;
+    width: 50%;
+    margin-left: -20px;
+ }
