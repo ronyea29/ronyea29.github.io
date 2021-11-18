@@ -23,7 +23,14 @@ html {
      padding: 30px;
  }
 
- h1, h2 {
+ h1 {
+    font-family: 'Rampart One', cursive;
+    color: rgb(60, 0, 128);
+    font-variant: normal;
+    text-align: center;
+ }
+
+ h2 {
     font-family: 'Rampart One', cursive;
     color: rgb(60, 0, 128);
     font-variant: normal;
