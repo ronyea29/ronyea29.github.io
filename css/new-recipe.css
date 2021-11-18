@@ -11,3 +11,25 @@ html {
 }
 
  /* end of CSS reset */
+
+ body {
+     background-color: rgb(215, 253, 176);
+ }
+
+ img {
+     box-sizing: border-box;
+     width: 350px;
+     border: 20px dotted rgb(146, 95, 1);
+     padding: 30px;
+ }
+
+ h1, h2 {
+    font-family: 'Rampart One', cursive;
+    color: rgb(60, 0, 128);
+    font-variant: normal;
+ }
+
+ p {
+    font-family: 'Crafty Girls', cursive;
+    font-size: 1.3rem;
+ }
