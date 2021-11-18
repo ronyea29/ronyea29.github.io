@@ -1,0 +1,13 @@
+/* CSS reset */
+
+html {
+    box-sizing: inherit;
+}
+
+*,
+*:before ,
+*:after {
+    box-sizing: inherit;
+}
+
+ /* end of CSS reset */
