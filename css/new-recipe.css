@@ -27,7 +27,17 @@ html {
     font-size: 3.5rem;
  }
 
- h2, h3 {
+ h2 {
+    font-family: 'Rampart One', cursive;
+    color: rgb(60, 0, 128);
+    font-variant: normal;
+    text-align: center;
+    font-size: 1.5rem;
+
+
+ }
+ 
+ h3 {
     font-family: 'Rampart One', cursive;
     color: rgb(60, 0, 128);
     font-variant: normal;
@@ -37,7 +47,13 @@ html {
 
  p {
     font-family: 'Comfortaa', cursive;
+    font-size: 1.5rem;
+ }
+
+ ul1 {
+    font-family: 'Comfortaa', cursive;
     font-size: 1.3rem;
+    flex-wrap: wrap;
  }
 
  .recipe-pic {
@@ -56,25 +72,25 @@ html {
  }
 
  .eggs-pic {
-     max-width: 25%;
+     max-width: 17%;
      margin-left: 3px;
      border: 2px solid rgb(11, 41, 97);
      border-radius: 50%;
-     float: left;
+     float: right;
  }
 
  .flour-pic {
-    max-width: 25%;
+    max-width: 17%;
     margin-left: 3px;
     border: 2px solid rgb(11, 41, 97);
     border-radius: 50%;
-    float: left;
+    float: right;
 }
 
 .cocoa-pic {
-    max-width: 25%;
+    max-width: 17%;
     margin-left: 3px;
     border: 2px solid rgb(11, 41, 97);
     border-radius: 50%;
-    float: left;
+    float: right;
 }
