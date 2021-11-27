@@ -33,8 +33,6 @@ html {
     font-variant: normal;
     text-align: center;
     font-size: 1.5rem;
-
-
  }
  
  h3 {
@@ -53,7 +51,6 @@ html {
  ul1 {
     font-family: 'Comfortaa', cursive;
     font-size: 1.3rem;
-    flex-wrap: wrap;
  }
 
  .recipe-pic {
