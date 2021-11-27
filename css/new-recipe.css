@@ -42,7 +42,7 @@ html {
 
  .recipe-pic {
      max-width: 40%;
-     margin-right: 12px;
+     margin-right: 4px;
      border: 4px dotted rgb(112, 69, 19);
      padding: 15px;
      border-radius: 40%;
