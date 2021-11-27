@@ -54,3 +54,11 @@ html {
     width: 50%;
     margin-left: 20px;
  }
+
+ .eggs-pic {
+     max-width: 25%;
+     margin-left: 3px;
+     border: 2px solid rgb(11, 41, 97);
+     border-radius: 50%;
+     float: left;
+ }
