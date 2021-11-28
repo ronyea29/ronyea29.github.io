@@ -53,15 +53,6 @@ html {
     font-size: 1.3rem;
  }
 
- .recipe-pic {
-     max-width: 40%;
-     margin-right: 4px;
-     border: 4px dotted rgb(112, 69, 19);
-     padding: 15px;
-     border-radius: 40%;
-     float: center;
- }
-
  .bio-intro {
     float: left;
     width: 50%;
